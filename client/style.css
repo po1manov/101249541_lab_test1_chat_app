@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+#signup-form, #login-form, #chat-room {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type="text"], input[type="password"], button, select {
+    display: block;
+    width: 95%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button, select {
+    background-color: #007bff;
+    color: #fff;
+    width: 101%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover, select:hover {
+    background-color: #0056b3;
+}
+
+#room-list {
+    margin-bottom: 10px;
+}
+
+#chat-messages {
+    max-height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#message-input {
+    width: calc(100% - 80px);
+    margin-right: 10px;
+}
+
+#typing-status {
+    font-style: italic;
+}
+
+#logout {
+    background-color: #dc3545;
+    width: 100%;
+}
+
+#logout:hover {
+    background-color: #c82333;
+}
